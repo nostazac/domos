@@ -1,0 +1,64 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px rgba(206, 206, 25, 0);
+    background-color: #2F4F4F;
+}
+h1{
+    color: darkorange;
+    font-style:bold;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 300%;
+    border: 4em rgb(4, 2, 34);
+    text-align: center ;
+}
+#mainmenu ul{
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#mainmenu li {
+     float: left;
+
+}
+#mainmenu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#mainmenu li a:hover{
+    background-color: #111;
+}
+dropdown-menu{
+    position: fixed;
+    top: 0;
+
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: index 1;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    background-color: #3e8e41;
+    size: 3em;
+
+}
+.form-control
+{
+    border-top: 2em;
+    width: 200px;
+    background-color: antiquewhite;
+    -webkit-transition: width 0.4s ease-in-out;
+}
+.form-control:focus{
+    width: 100%;
+}
